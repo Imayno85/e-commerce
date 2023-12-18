@@ -2,6 +2,7 @@
 
 .relatedProducts {
   width: 100%;
+  padding-top: var(--base);
 }
 
 .introContent {
@@ -19,23 +20,16 @@
   grid-template-columns: repeat(3, minmax(30%, 1fr));
   gap: 30px;
 
-    @include mid-break {
+  @include mid-break {
     gap: 20px;
-    }
+  }
 
-    @include small-break {
+  @include small-break {
     grid-template-columns: 100%;
-    }
-
+  }
+}
 
 .title {
   font-weight: 400;
   margin-bottom: 30px;
 }
-}
-
-
-
-
-  
-
